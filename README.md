@@ -1,6 +1,6 @@
 ## Livewire Calculator
 
-This is a Laravel Livewire calculator component that mimics the basic Apple OS calculator. It uses [Laravel PHP](https://laravel.com) with [Blade templates](https://laravel.com/docs/master/blade), [Laravel Livewire](https://laravel-livewire.com), [Tailwind CSS](https://tailwindcss.com), and NO custom JavaScript.
+This is a Laravel Livewire calculator component that mimics the basic Apple OS calculator. It uses [Laravel PHP](https://laravel.com) with [Blade templates](https://laravel.com/docs/master/blade), [Tailwind CSS](https://tailwindcss.com) (no custom CSS), and [Laravel Livewire](https://laravel-livewire.com) (no custom JS).
 
 ### Preview:
 <img src="docs/calculator-sm.png" width="300" title="Calculator Preview" />
