@@ -11,17 +11,18 @@ This is a Laravel Livewire calculator component that mimics the basic Apple OS c
 - Calculate with number and operator: `3*=`
 - Start another calculation: `2+3= 4+5=`
 - Percent: `2%`
-- Negate: 2&plusmn;
+- Negate: `2`&plusmn;
 - Decimals and negatives: `-2.4`
 - Change operator without calculating: `2+-*/4=`
 - `2+3%` disregards first number
-- `2+3!` negates last number
-- Prepend 0 on decimal: `0.`
-- Block multiple decimals
-- Block first inputs as operators
-- Show error for large numbers
-- Round large decimals
-- Divide by zero fallsback to zero: `2/0=`
+- `2+3`&plusmn; negates last number
+- Edge cases:
+    - Prepends 0 on decimal: `0.`
+    - Blocks multiple decimals
+    - Blocks first inputs as operators
+    - Shows error for large numbers
+    - Rounds large decimals
+    - Divide by zero: `2/0=`
 
 ### Nice to haves:
 - Code refactor and clean-up
